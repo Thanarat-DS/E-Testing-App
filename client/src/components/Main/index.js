@@ -23,7 +23,7 @@ import {
   COUNTDOWN_TIME,
 } from '../../constants';
 import { shuffle } from '../../utils';
-import api from "../../APIs/api";
+import { API_URL } from '../../APIs/api';
 import Offline from '../Offline';
 
 const Main = ({ startQuiz }) => {
@@ -36,8 +36,6 @@ const Main = ({ startQuiz }) => {
   const [error, setError] = useState(null);
   const [offline, setOffline] = useState(false);
   const [responseData, setResponseData] = useState(null); // State เก็บค่าจาก API
-
-  // Test
   const [exams, setExams] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -65,64 +63,6 @@ const Main = ({ startQuiz }) => {
 
   if (loading) return <Loader active inline='centered' />;
   if (error) return <Message negative>{error}</Message>;
-
-  // const fetchData = () => {
-  //   setProcessing(true);
-
-  //   if (error) setError(null);
-
-  //   const API = `https://opentdb.com/api.php?amount=${numOfQuestions}&category=${category}&difficulty=${difficulty}&type=${questionsType}`;
-
-  //   fetch(API)
-  //     .then(respone => respone.json())
-  //     .then(data =>
-  //       setTimeout(() => {
-  //         const { response_code, results } = data;
-
-  //         if (response_code === 1) {
-  //           const message = (
-  //             <p>
-  //               The API doesn't have enough questions for your query. (Ex.
-  //               Asking for 50 Questions in a Category that only has 20.)
-  //               <br />
-  //               <br />
-  //               Please change the <strong>No. of Questions</strong>,{' '}
-  //               <strong>Difficulty Level</strong>, or{' '}
-  //               <strong>Type of Questions</strong>.
-  //             </p>
-  //           );
-
-  //           setProcessing(false);
-  //           setError({ message });
-
-  //           return;
-  //         }
-
-  //         results.forEach(element => {
-  //           element.options = shuffle([
-  //             element.correct_answer,
-  //             ...element.incorrect_answers,
-  //           ]);
-  //         });
-
-  //         setProcessing(false);
-  //         startQuiz(
-  //           results,
-  //           countdownTime.hours + countdownTime.minutes + countdownTime.seconds
-  //         );
-  //       }, 1000)
-  //     )
-  //     .catch(error =>
-  //       setTimeout(() => {
-  //         if (!navigator.onLine) {
-  //           setOffline(true);
-  //         } else {
-  //           setProcessing(false);
-  //           setError(error);
-  //         }
-  //       }, 1000)
-  //     );
-  // };
 
   // const fetchData = () => {
   //   setProcessing(true);
@@ -197,7 +137,7 @@ const Main = ({ startQuiz }) => {
       return;
     }
   
-    fetch('https://backend-e-testing.trrcane.com/api/questions')
+    fetch(API_URL + `/api/questions`)
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);

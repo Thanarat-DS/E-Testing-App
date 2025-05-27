@@ -1,7 +1,9 @@
 import axios from "axios";
+import dotenv from 'dotenv';
+dotenv.config({ path: path.resolve(__dirname, '../../.env') });
 
-export const API_URL = "https://backend-e-testing.trrcane.com"; // เปลี่ยนเป็น URL ของ backend
-export const API_AUTH_URL = "https://auth-e-testing.trrcane.com"; // เปลี่ยนเป็น URL ของ auth
+export const API_URL = process.env.SERVER_URL_BACKEND; // เปลี่ยนเป็น URL ของ backend
+export const API_AUTH_URL = process.env.SERVER_URL_AUTH; // เปลี่ยนเป็น URL ของ auth
 
 const api = axios.create({
   baseURL: API_URL,

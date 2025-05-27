@@ -114,8 +114,8 @@ app.use(adminJs.options.rootPath, router);
 app.use(express.json());
 
 const allowedOrigins = [
-  'https://e-testing.trrcane.com',
-  'https://auth-e-testing.trrcane.com',
+  process.env.SERVER_URL_BACKEND,
+  process.env.SERVER_URL_AUTH,
   'http://localhost',
   'http://localhost:3000'
 ];

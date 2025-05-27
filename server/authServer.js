@@ -29,8 +29,8 @@ const db = await mysql.createPool({
 });
 
 const allowedOrigins = [
-  'https://e-testing.trrcane.com',
-  'https://auth-e-testing.trrcane.com',
+  process.env.SERVER_URL_BACKEND,
+  process.env.SERVER_URL_AUTH,
   'http://localhost',
   'http://localhost:3000'
 ];
@@ -52,7 +52,7 @@ let refreshTokens = []
 const users = [
   { username: "thanarat.sri", password: "123456" },
   { username: "user1", password: "password1" },
-  { username: "sarawut", password: "1234"}
+
 ];
 
 // เปลี่ยน Access Token ที่หมดอายุเป็นอันใหม่ด้วย Refresh Token
