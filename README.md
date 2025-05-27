@@ -10,14 +10,8 @@
 - **Authentication:** JWT-based login system
 - **Features:** Progressive Web App (PWA), Responsive Design for mobile and desktop
 
-## Start frontend server
-cd client <br></br>
-npm install <br></br>
-npm start <br></br>
-
-## Start backend server
-cd server <br></br>
-npm install <br></br>
+# pm2
+## Start server
 pm2 start authServer.js --name="auth" <br></br>
 pm2 start server.js --name="backend"
 
