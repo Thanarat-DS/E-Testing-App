@@ -8,6 +8,7 @@
 - **Database:** MySQL, Sequelize ORM  
 - **Admin Panel:** AdminJS with custom resource configurations  
 - **Authentication:** JWT-based login system
+- **Features:** Progressive Web App (PWA), Responsive Design for mobile and desktop
 
 # pm2
 ## Start server
