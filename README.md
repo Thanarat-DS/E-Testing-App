@@ -1,3 +1,14 @@
+# Project **Work In Progress**
+
+# E-Testing App
+## 🧰 Tech Stack
+
+- **Frontend:** React, Semantic UI  
+- **Backend:** Node.js, Express.js (microservices-based)  
+- **Database:** MySQL, Sequelize ORM  
+- **Admin Panel:** AdminJS with custom resource configurations  
+- **Authentication:** JWT-based login system
+
 # pm2
 ## Start server
 pm2 start authServer.js --name="auth" <br></br>
