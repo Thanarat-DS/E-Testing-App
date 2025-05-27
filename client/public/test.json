@@ -1,0 +1,123 @@
+[
+    {
+        "ExamID": "QP-DC01",
+        "QuestionNo": 1,
+        "QuestionID": 1,
+        "QuestionText": "วัตถุประสงค์หลักของการควบคุมเอกสารคืออะไร?",
+        "Choices": [
+        { "ChoiceID": 1, "ChoiceText": "การจัดเก็บเอกสารในที่ปลอดภัย", "IsCorrect": false },
+        { "ChoiceID": 2, "ChoiceText": "การจัดทำเอกสารใหม่ให้ทันสมัย", "IsCorrect": false },
+        { "ChoiceID": 3, "ChoiceText": "การควบคุมเอกสารให้ถูกต้อง เป็นปัจจุบัน และพร้อมใช้งาน", "IsCorrect": true },
+        { "ChoiceID": 4, "ChoiceText": "การทำลายเอกสารที่ไม่ใช้งาน", "IsCorrect": false }
+        ]
+    },
+    {
+        "ExamID": "QP-DC01",
+        "QuestionNo": 2,
+        "QuestionID": 2,
+        "QuestionText": "ขอบเขตของการควบคุมเอกสารครอบคลุมอะไรบ้าง?",
+        "Choices": [
+        { "ChoiceID": 5, "ChoiceText": "การอนุมัติ การควบคุม และการจัดเก็บเอกสาร", "IsCorrect": true },
+        { "ChoiceID": 6, "ChoiceText": "การจัดเก็บเอกสารในห้องเก็บเอกสาร", "IsCorrect": false },
+        { "ChoiceID": 7, "ChoiceText": "การทำลายเอกสารเก่า", "IsCorrect": false },
+        { "ChoiceID": 8, "ChoiceText": "การจัดทำเอกสารส่วนตัว", "IsCorrect": false }
+        ]
+    },
+    {
+        "ExamID": "QP-DC01",
+        "QuestionNo": 3,
+        "QuestionID": 3,
+        "QuestionText": "Quality Procedure (QP) หมายถึงอะไร?",
+        "Choices": [
+        { "ChoiceID": 9, "ChoiceText": "เอกสารที่แจ้งให้ทราบโดยทั่วกันทั้งองค์กร", "IsCorrect": true },
+        { "ChoiceID": 10, "ChoiceText": "เอกสารที่ให้ความรู้เกี่ยวกับการใช้งานสิ่งใดสิ่งหนึ่ง", "IsCorrect": false },
+        { "ChoiceID": 11, "ChoiceText": "เอกสารที่อธิบายถึงรายละเอียดการปฏิบัติงานในแนวลึก", "IsCorrect": false },
+        { "ChoiceID": 12, "ChoiceText": "เอกสารที่ระบุขั้นตอนการทำงานระหว่างหน่วยงานหรือระหว่างตำแหน่งงานในแนวกว้าง", "IsCorrect": false }
+        ]
+    },
+    {
+        "ExamID": "QP-DC01",
+        "QuestionNo": 4,
+        "QuestionID": 4,
+        "QuestionText": "วิธีปฏิบัติ (Work Instruction: WI) คืออะไร?",
+        "Choices": [
+        { "ChoiceID": 13, "ChoiceText": "เอกสารที่ระบุขั้นตอนการทำงานระหว่างหน่วยงานหรือระหว่างตำแหน่งงานในแนวกว้าง", "IsCorrect": false },
+        { "ChoiceID": 14, "ChoiceText": "เอกสารที่อธิบายถึงรายละเอียดการปฏิบัติงานในแนวลึก", "IsCorrect": true },
+        { "ChoiceID": 15, "ChoiceText": "เอกสารที่ให้ความรู้เกี่ยวกับการใช้งานสิ่งใดสิ่งหนึ่ง", "IsCorrect": false },
+        { "ChoiceID": 16, "ChoiceText": "เอกสารที่แจ้งให้ทราบโดยทั่วกันทั้งองค์กร", "IsCorrect": false }
+        ]
+    },
+    {
+        "ExamID": "QP-DC01",
+        "QuestionNo": 5,
+        "QuestionID": 5,
+        "QuestionText": "ใบคำร้องขอดำเนินการเอกสาร (DAR) คืออะไร จัดทำกรณีใดบ้าง?",
+        "Choices": [
+        { "ChoiceID": 17, "ChoiceText": "เอกสารที่ระบุขั้นตอนการทำงานระหว่างหน่วยงาน กรณีทำใหม่ แก้ไข เท่านั้น", "IsCorrect": false },
+        { "ChoiceID": 18, "ChoiceText": "เอกสารที่อธิบายถึงรายละเอียดการปฏิบัติงาน กรณีทำใหม่ แก้ไข ยกเลิก", "IsCorrect": false },
+        { "ChoiceID": 19, "ChoiceText": "เอกสารที่แสดงความประสงค์ในการจัดการกับเอกสาร , กรณีทำใหม่ แก้ไข ยกเลิก ประเภท QP WI FM", "IsCorrect": true },
+        { "ChoiceID": 20, "ChoiceText": "เอกสารที่แสดงความประสงค์ในการจัดการกับเอกสาร , กรณีทำใหม่ แก้ไข ยกเลิก สำหรับทุกประเภทเอกสาร", "IsCorrect": false }
+        ]
+    },
+    {
+      "ExamID": "QP-DC01",
+      "QuestionNo": 6,
+      "QuestionID": 6,
+      "QuestionText": "ใครมีอำนาจอนุมัติ QP และ WI?",
+      "Choices": [
+        { "ChoiceID": 21, "ChoiceText": "ผู้จัดการฝ่ายพัฒนางานตรวจสอบ", "IsCorrect": 0 },
+        { "ChoiceID": 22, "ChoiceText": "ระดับผู้อำนวยการขึ้นไป", "IsCorrect": 1 },
+        { "ChoiceID": 23, "ChoiceText": "หัวหน้าของหน่วยงานผู้รับตรวจ", "IsCorrect": 0 },
+        { "ChoiceID": 24, "ChoiceText": "ข้อ ก และ ข ถูก", "IsCorrect": 0 }
+      ]
+    },
+    {
+      "ExamID": "QP-DC01",
+      "QuestionNo": 7,
+      "QuestionID": 7,
+      "QuestionText": "ผู้รับผิดชอบทำ Position Training Needs คือใคร และหน่วยงานต้องจัดทำบันทึกการฝึกอบรมคู่มือ ภายในกี่วัน?",
+      "Choices": [
+        { "ChoiceID": 25, "ChoiceText": "ควบคุมเอกสาร , ภายใน 7 วัน", "IsCorrect": 0 },
+        { "ChoiceID": 26, "ChoiceText": "ผู้ควบคุมเอกสาร , ภายใน 14 วัน", "IsCorrect": 0 },
+        { "ChoiceID": 27, "ChoiceText": "ตัวแทนของหน่วยงาน , ภายใน 7 วัน", "IsCorrect": 0 },
+        { "ChoiceID": 28, "ChoiceText": "ตัวแทนของหน่วยงาน , ภายใน 14 วัน", "IsCorrect": 1 }
+      ]
+    },
+    {
+      "ExamID": "QP-DC01",
+      "QuestionNo": 8,
+      "QuestionID": 8,
+      "QuestionText": "เลขที่ของระเบียบปฏิบัติของหน่วยงานควบคุมภายในเรื่องที่ 1 คือ ข้อใด?",
+      "Choices": [
+        { "ChoiceID": 29, "ChoiceText": "AN67-IA01", "IsCorrect": 0 },
+        { "ChoiceID": 30, "ChoiceText": "WI-AC01", "IsCorrect": 0 },
+        { "ChoiceID": 31, "ChoiceText": "QP-IA01", "IsCorrect": 0 },
+        { "ChoiceID": 32, "ChoiceText": "QP-AC01", "IsCorrect": 1 }
+      ]
+    },
+    {
+      "ExamID": "QP-DC01",
+      "QuestionNo": 9,
+      "QuestionID": 9,
+      "QuestionText": "ผู้รับผิดชอบกำหนดเลขที่นโยบายและประกาศคือใคร?",
+      "Choices": [
+        { "ChoiceID": 33, "ChoiceText": "หน่วยงาน", "IsCorrect": 0 },
+        { "ChoiceID": 34, "ChoiceText": "ผู้ควบคุมเอกสาร", "IsCorrect": 1 },
+        { "ChoiceID": 35, "ChoiceText": "เจ้าหน้าที่ HR", "IsCorrect": 0 },
+        { "ChoiceID": 36, "ChoiceText": "ข้อ ข และ ค ถูก", "IsCorrect": 0 }
+      ]
+    },
+    {
+      "ExamID": "QP-DC01",
+      "QuestionNo": 10,
+      "QuestionID": 10,
+      "QuestionText": "ระยะเวลาในการทบทวนเอกสาร และอายุของเอกสารที่ต้องทบทวน คือข้อใด?",
+      "Choices": [
+        { "ChoiceID": 37, "ChoiceText": "ทบทวนทุกเรื่อง ในช่วงต้นปี", "IsCorrect": 0 },
+        { "ChoiceID": 38, "ChoiceText": "ทบทวนทุกเรื่อง ในช่วงปลายปี", "IsCorrect": 0 },
+        { "ChoiceID": 39, "ChoiceText": "เอกสารที่มีอายุเกิน 2 ปี ณ เดือนเมษายน", "IsCorrect": 0 },
+        { "ChoiceID": 40, "ChoiceText": "เอกสารที่มีอายุเกิน 1 ปี ณ เดือนเมษายน", "IsCorrect": 1 }
+      ]
+    }
+  ]
+  

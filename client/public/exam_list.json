@@ -1,0 +1,41 @@
+{
+    "department": "Coporate Planning",
+    "exams": [
+      {
+        "ExamID": "QP-DC01",
+        "ExamTitle": "ความรู้ทั่วไป", 
+        "time_limit": 20,
+        "score": 10,
+        "qnum": 11
+      },
+      {
+        "ExamID": "QP-LO06",
+        "ExamTitle": "ความรู้การใช้คู่มือเอกสาร", 
+        "time_limit": 30,
+        "score": 8,
+        "qnum": 10
+      },
+      {
+        "ExamID": "QP-LO08",
+        "ExamTitle": "ความรู้การตรวจสอบภายใน", 
+        "time_limit": 20,
+        "score": 6,
+        "qnum": 10
+      },
+      {
+        "ExamID": "IT-LO01",
+        "ExamTitle": "ความรู้ทั่วไปสำหรับแผนก IT", 
+        "time_limit": 30,
+        "score": 8,
+        "qnum": 10
+      },
+      {
+        "ExamID": "WI-LO08",
+        "ExamTitle": "ความรู้แบบฟอร์มการขอเบิก", 
+        "time_limit": 20,
+        "score": 7,
+        "qnum": 10
+      }
+    ]
+  }
+  
